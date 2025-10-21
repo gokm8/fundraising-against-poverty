@@ -16,7 +16,7 @@ export const Hero = () => {
                     />
                 </div>
                 <div className="gap-2 flex flex-col mb-8">
-                    <h1 className="text-2xl font-bold">
+                    <h1 className="text-3xl font-bold">
                         Project: Helping XXXXX
                     </h1>
                     <p className="text-base">

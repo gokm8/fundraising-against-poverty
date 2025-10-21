@@ -47,7 +47,7 @@ export const Navbar = () => {
                             <div
                                 className="flex items-center gap-1"
                                 suppressHydrationWarning={true}>
-                                <Button size="sm">Bestå første gang</Button>
+                                <Button size="sm">Støt projektet</Button>
                                 <Sheet>
                                     <SheetTrigger asChild>
                                         <Button size="icon" variant={"ghost"}>
