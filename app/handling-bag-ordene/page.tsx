@@ -1,13 +1,14 @@
 import { Container } from "@/components/ds";
 
 import { Main } from "@/components/ds";
+import { Header } from "./_components/Header";
+import { LastTour } from "./_components/LastTour";
 
 export default function HandlingBagOrdene() {
     return (
         <Main>
-            <Container>
-                <h1>Handling bag ordene</h1>
-            </Container>
+            <Header />
+            <LastTour />
         </Main>
     );
 }

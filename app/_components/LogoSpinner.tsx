@@ -10,7 +10,7 @@ export const LogoSpinner = () => {
         <Section className="bg-muted">
             <Container>
                 <div className="flex flex-col gap-4 items-center justify-center text-center">
-                    <h2 className="text-xl font-bold">
+                    <h2 className="text-base font-bold">
                         Mange tak til vores sponsorater
                     </h2>
                     <div className="flex size-full items-center justify-center">

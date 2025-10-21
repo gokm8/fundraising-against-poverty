@@ -17,7 +17,7 @@ export const Cards = () => {
                         />
                     </div>
                     <div>
-                        <h3 className="text-2xl font-bold">
+                        <h3 className="text-xl font-bold">
                             Fattigdom og ulighed
                         </h3>
                         <p>
@@ -48,7 +48,7 @@ export const Cards = () => {
                         />
                     </div>
                     <div className="order-2 md:order-1">
-                        <h3 className="text-2xl font-bold">Hvem er vi?</h3>
+                        <h3 className="text-xl font-bold">Hvem er vi?</h3>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s, when an unknown printer
@@ -78,7 +78,7 @@ export const Cards = () => {
                         />
                     </div>
                     <div>
-                        <h3 className="text-2xl font-bold">
+                        <h3 className="text-xl font-bold">
                             Kom i kontakt med os
                         </h3>
                         <p>
