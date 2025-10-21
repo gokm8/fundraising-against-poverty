@@ -32,8 +32,8 @@ export const Navbar = () => {
     ];
 
     return (
-        <header>
-            <Nav className="border-b py-4">
+        <header className="border-b">
+            <Nav>
                 <div>
                     {isMobile ? (
                         <div className="flex items-center justify-between ">
