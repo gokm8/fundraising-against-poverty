@@ -11,7 +11,7 @@ export const LogoSpinner = () => {
             <Container>
                 <div className="flex flex-col gap-4 items-center justify-center text-center">
                     <h2 className="text-xl font-bold">
-                        Mange tak til vores sponsorater fra
+                        Mange tak til vores sponsorater
                     </h2>
                     <div className="flex size-full items-center justify-center">
                         <Marquee>
