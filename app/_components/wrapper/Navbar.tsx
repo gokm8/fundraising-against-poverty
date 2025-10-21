@@ -33,8 +33,8 @@ export const Navbar = () => {
 
     return (
         <header>
-            <Nav className="border-b">
-                <Container>
+            <Nav className="border-b py-4">
+                <div>
                     {isMobile ? (
                         <div className="flex items-center justify-between ">
                             <div>
@@ -115,7 +115,7 @@ export const Navbar = () => {
                             </div>
                         </div>
                     )}
-                </Container>
+                </div>
             </Nav>
         </header>
     );
