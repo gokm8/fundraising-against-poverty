@@ -37,9 +37,17 @@ export const Cards = () => {
                     </div>
                 </Container>
             </Section>
-            <Section>
-                <Container className="grid md:grid-cols-2 gap-4">
-                    <div>
+            <Section className="bg-muted/50">
+                <Container className="grid md:grid-cols-2 gap-4 ">
+                    <div className="order-1 md:order-2">
+                        <Image
+                            src="/poverty.jpg"
+                            alt="Poverty"
+                            width={1000}
+                            height={1000}
+                        />
+                    </div>
+                    <div className="order-2 md:order-1">
                         <h3 className="text-2xl font-bold">Hvem er vi?</h3>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy
@@ -56,16 +64,9 @@ export const Cards = () => {
                         </p>
                         <Button variant="secondary">Læs mere</Button>
                     </div>
-                    <div>
-                        <Image
-                            src="/poverty.jpg"
-                            alt="Poverty"
-                            width={1000}
-                            height={1000}
-                        />
-                    </div>
                 </Container>
             </Section>
+
             <Section>
                 <Container className="grid md:grid-cols-2 gap-4">
                     <div>
