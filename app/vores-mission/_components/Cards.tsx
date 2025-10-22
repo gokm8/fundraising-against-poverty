@@ -1,6 +1,5 @@
-import { Container } from "@/components/ds";
+import { Container, Section } from "@/components/ds";
 import Image from "next/image";
-import { Section } from "@/components/ds";
 import { Button } from "@/components/ui/button";
 
 export const Cards = () => {
@@ -18,7 +17,7 @@ export const Cards = () => {
                     </div>
                     <div>
                         <h3 className="text-xl font-bold">
-                            Fattigdom og ulighed
+                            1) Fokus på fattigdom
                         </h3>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy
@@ -48,7 +47,9 @@ export const Cards = () => {
                         />
                     </div>
                     <div className="order-2 md:order-1">
-                        <h3 className="text-xl font-bold">Hvem er vi?</h3>
+                        <h3 className="text-xl font-bold">
+                            2) Fokus på ulighed
+                        </h3>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy
                             text ever since the 1500s, when an unknown printer
@@ -78,7 +79,7 @@ export const Cards = () => {
                     </div>
                     <div>
                         <h3 className="text-xl font-bold">
-                            Kom i kontakt med os
+                            3) Kom i kontakt med os
                         </h3>
                         <p>
                             Lorem Ipsum has been the industry's standard dummy
