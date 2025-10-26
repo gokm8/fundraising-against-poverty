@@ -5,8 +5,21 @@ export const Header = () => {
     return (
         <Section>
             <Container className="grid md:grid-cols-2 gap-4 md:gap-8">
+                {/* Tekst */}
                 <div className="flex flex-col gap-4">
                     <h1>Vores mission</h1>
+
+                    {/* Billede KUN på mobil (lige over p-tags) */}
+                    <div className="rounded-lg overflow-hidden md:hidden">
+                        <Image
+                            src="/poverty.jpg"
+                            alt="Last Tour"
+                            width={1000}
+                            height={1000}
+                            className="rounded-lg"
+                        />
+                    </div>
+
                     <p className="[text-align:justify] [hyphens:auto]">
                         Vi hjælper udsatte børn i Østtyrkiet med adgang til mad,
                         tøj, tryghed og mulighed for at gå i skole. Mange
@@ -16,10 +29,12 @@ export const Header = () => {
                     <p className="[text-align:justify] [hyphens:auto]">
                         Vi samarbejder med lokale kræfter, der kender behovene
                         bedst, så hjælpen gør en reel forskel og giver børnene
-                        og deres familier bedre muligheder og håb for fremtiden.
+                        og deres familier bedre muligheder og håb for fremtiden.{" "}
                     </p>
                 </div>
-                <div className="rounded-lg overflow-hidden">
+
+                {/* Billede KUN på desktop */}
+                <div className="rounded-lg overflow-hidden hidden md:block">
                     <Image
                         src="/poverty.jpg"
                         alt="Last Tour"
