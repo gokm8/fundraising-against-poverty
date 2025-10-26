@@ -23,25 +23,29 @@ export const Footer = () => {
                             <h5 className="text-base font-bold">Website</h5>
                             <Link
                                 className="underline max-w-[130px] md:max-w-full truncate"
-                                href="/">
+                                href="/handling-bag-ordene">
                                 Handling bag ordene
                             </Link>
-                            <Link className="underline" href="/">
+                            <Link className="underline" href="/vores-mission">
                                 Vores mission
                             </Link>
-                            <Link className="underline" href="/">
+                            <Link className="underline" href="/kontakt-os">
                                 Kontakt os
                             </Link>
                         </div>
                         <div className="flex flex-col gap-2">
                             <h5 className="text-base font-bold">Legal</h5>
-                            <Link className="underline" href="/">
+                            <Link
+                                className="underline"
+                                href="/privatlivspolitik">
                                 Privatlivspolitik
                             </Link>
-                            <Link className="underline" href="/">
+                            <Link
+                                className="underline"
+                                href="/vilkaar-for-tjeneste">
                                 Vilkår for tjeneste
                             </Link>
-                            <Link className="underline" href="/">
+                            <Link className="underline" href="/cookiepolitik">
                                 Cookiepolitik
                             </Link>
                         </div>

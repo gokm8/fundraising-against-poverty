@@ -15,14 +15,14 @@ const items = [
         link: "/vores-mission",
     },
     {
-        title: "Hvem er vi?",
+        title: "Handling bag ordene",
         image: "/hero/kurdish_child_alone.jpg",
         text1: "Vi er en organisation, der arbejder for at støtte udsatte børn og familier i Østtyrkiet. Vores indsats bygger på et personligt kendskab til området og et ønske om at hjælpe dér, hvor behovet er størst.",
         text2: "Vi samarbejder med lokale kontaktpersoner, så hjælpen når direkte frem til dem, der har brug for den. Vi tror på ansvarlighed, gennemsigtighed og støtte, der faktisk gør en forskel i hverdagen.",
         button: "Læs mere om hvem vi er",
         bg: "bg-muted/50",
         reverse: true, // denne skal flippes
-        link: "/hvem-er-vi",
+        link: "/handling-bag-ordene",
     },
     {
         title: "Kom i kontakt med os",
@@ -32,7 +32,7 @@ const items = [
         button: "Kontakt os",
         bg: "",
         reverse: false,
-        link: "/kom-i-kontakt-med-os",
+        link: "/kontakt-os",
     },
 ];
 
