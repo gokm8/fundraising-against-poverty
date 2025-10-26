@@ -41,7 +41,7 @@ export const Navbar = () => {
                                 <Link
                                     href="/"
                                     className="text-muted-foreground hover:text-primary text-sm">
-                                    Under Samme Sol
+                                    UNDER SAMME SOL
                                 </Link>
                             </div>
                             <div
@@ -90,7 +90,7 @@ export const Navbar = () => {
                             <Link
                                 href="/"
                                 className="text-muted-foreground hover:text-primary text-base font-bold">
-                                Under Samme Sol
+                                UNDER SAMME SOL
                             </Link>
 
                             <div className="flex items-center gap-4">
