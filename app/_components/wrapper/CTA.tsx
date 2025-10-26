@@ -16,7 +16,7 @@ import { Toggle } from "@/components/ui/toggle";
 export const CTA = () => {
     return (
         <Section>
-            <Container className="max-w-5xl">
+            <Container className="max-w-7xl">
                 <Card className="text-center">
                     <CardHeader>
                         <CardTitle>
