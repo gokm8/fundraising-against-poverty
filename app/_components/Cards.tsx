@@ -41,7 +41,7 @@ export const Cards = () => {
         <>
             {items.map((item, index) => (
                 <Section key={index} className={item.bg}>
-                    <Container className="max-w-7xl">
+                    <Container>
                         <div
                             className={`flex flex-col md:flex-row gap-6 items-center ${
                                 item.reverse ? "md:flex-row-reverse" : ""

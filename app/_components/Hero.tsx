@@ -6,7 +6,7 @@ import Image from "next/image";
 export const Hero = () => {
     return (
         <Section>
-            <Container className="max-w-7xl">
+            <Container>
                 <div className="grid md:grid-cols-2 gap-4 md:gap-8">
                     <div className="rounded-lg overflow-hidden mb-4">
                         <Image
