@@ -10,9 +10,7 @@ export const LogoSpinner = () => {
         <Section className="bg-muted">
             <Container>
                 <div className="flex flex-col gap-4 items-center justify-center text-center">
-                    <h2 className="text-base font-bold">
-                        Mange tak til vores sponsorater
-                    </h2>
+                    <h2>Mange tak til vores sponsorater</h2>
                     <div className="flex size-full items-center justify-center">
                         <Marquee>
                             <MarqueeContent>
@@ -30,7 +28,7 @@ export const LogoSpinner = () => {
                             </MarqueeContent>
                         </Marquee>
                     </div>
-                    <p className="text-sm text-muted-foreground">
+                    <p>
                         Vi er stolte af at have samarbejde med disse
                         organisationer, der hjælper os med at nå vores mål.
                     </p>

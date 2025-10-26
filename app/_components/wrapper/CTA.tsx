@@ -20,12 +20,10 @@ export const CTA = () => {
                 <Card className="text-center">
                     <CardHeader>
                         <CardTitle>
-                            <h3 className="text-xl font-bold">
-                                Gør en forskel i dag
-                            </h3>
+                            <h3>Gør en forskel i dag</h3>
                         </CardTitle>
                         <CardDescription>
-                            <p className="text-base">
+                            <p>
                                 Din støtte hjælper børn og familier i Østtyrkiet
                                 med mad, tøj og tryghed. Selv små bidrag gør en
                                 reel forskel.
@@ -34,7 +32,7 @@ export const CTA = () => {
                     </CardHeader>
                     <CardContent>
                         <div className="flex flex-col gap-2">
-                            <p className="text-base font-bold text-start">
+                            <p className="text-foreground font-bold text-start">
                                 Vælg et bidrag
                             </p>
                             <Toggle variant="outline">50 DKK</Toggle>

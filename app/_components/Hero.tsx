@@ -18,17 +18,19 @@ export const Hero = () => {
                         />
                     </div>
                     <div className="gap-4 flex flex-col mb-8">
-                        <h1 className="text-3xl font-bold">
+                        <h1>
                             Sammen kan vi give børn i Østtyrkiet en bedre
                             fremtid
                         </h1>
-                        <p className="text-base mb-4">
+                        <p className="mb-4">
                             Din støtte går direkte til madpakker, tøj og
                             undervisningsmateriale til børn, der lever i
                             fattigdom i Østtyrkiet. Selv små bidrag gør en
                             mærkbar forskel.
                         </p>
-                        <p className="text-base font-bold">Vælg et bidrag</p>
+                        <p className="font-bold text-foreground">
+                            Vælg et bidrag
+                        </p>
                         <div className="flex flex-col gap-2">
                             <Toggle variant="outline">50 DKK</Toggle>
                             <Toggle variant="outline">100 DKK</Toggle>

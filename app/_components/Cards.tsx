@@ -57,9 +57,7 @@ export const Cards = () => {
                             </div>
 
                             <div className="flex flex-col gap-3 w-full md:w-1/2">
-                                <h2 className="text-xl font-bold">
-                                    {item.title}
-                                </h2>
+                                <h2>{item.title}</h2>
                                 <p>{item.text1}</p>
                                 <p className="mb-4">{item.text2}</p>
                                 <Button variant="outline" asChild>
