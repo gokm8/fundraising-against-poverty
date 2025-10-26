@@ -15,7 +15,7 @@ export const LastTour = () => {
                 </p>
             </Container>
             <Container>
-                <div className="grid gap-4">
+                <div className="grid gap-4 md:grid-cols-2">
                     <Image
                         src="/poverty.jpg"
                         alt="Last Tour"
