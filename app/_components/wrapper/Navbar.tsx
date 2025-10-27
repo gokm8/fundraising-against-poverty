@@ -1,6 +1,6 @@
 "use client";
 
-import { Container, Nav } from "@/components/ds";
+import { Nav } from "@/components/ds";
 import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";

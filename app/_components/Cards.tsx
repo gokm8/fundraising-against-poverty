@@ -1,7 +1,4 @@
-import { Container, Section } from "@/components/ds";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { CardSection } from "./wrapper/CardSection";
 
 const items = [
     {
@@ -40,33 +37,17 @@ export const Cards = () => {
     return (
         <>
             {items.map((item, index) => (
-                <Section key={index} className={item.bg}>
-                    <Container>
-                        <div
-                            className={`flex flex-col md:flex-row gap-6 items-center ${
-                                item.reverse ? "md:flex-row-reverse" : ""
-                            }`}>
-                            <div className="w-full md:w-1/2">
-                                <Image
-                                    src={item.image}
-                                    alt={item.title}
-                                    width={1000}
-                                    height={1000}
-                                    className="rounded-lg h-64 object-cover md:h-96"
-                                />
-                            </div>
-
-                            <div className="flex flex-col gap-3 w-full md:w-1/2">
-                                <h2>{item.title}</h2>
-                                <p>{item.text1}</p>
-                                <p className="mb-4">{item.text2}</p>
-                                <Button variant="outline" asChild>
-                                    <Link href={item.link}>{item.button}</Link>
-                                </Button>
-                            </div>
-                        </div>
-                    </Container>
-                </Section>
+                <CardSection
+                    key={index}
+                    title={item.title}
+                    text1={item.text1}
+                    text2={item.text2}
+                    img={item.image}
+                    reverse={item.reverse as boolean}
+                    bg={item.bg as string}
+                    buttonText={item.button as string}
+                    link={item.link as string}
+                />
             ))}
         </>
     );

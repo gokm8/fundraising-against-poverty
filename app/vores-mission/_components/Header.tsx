@@ -5,6 +5,15 @@ export const Header = () => {
     return (
         <Section>
             <Container className="grid md:grid-cols-2 gap-4 md:gap-8">
+                <div className="rounded-lg overflow-hidden hidden md:block">
+                    <Image
+                        src="/poverty.jpg"
+                        alt="Last Tour"
+                        width={1000}
+                        height={1000}
+                        className="rounded-lg"
+                    />
+                </div>
                 {/* Tekst */}
                 <div className="flex flex-col gap-4">
                     <h1>Vores mission</h1>
@@ -34,15 +43,6 @@ export const Header = () => {
                 </div>
 
                 {/* Billede KUN på desktop */}
-                <div className="rounded-lg overflow-hidden hidden md:block">
-                    <Image
-                        src="/poverty.jpg"
-                        alt="Last Tour"
-                        width={1000}
-                        height={1000}
-                        className="rounded-lg"
-                    />
-                </div>
             </Container>
         </Section>
     );

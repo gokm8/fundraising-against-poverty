@@ -2,7 +2,6 @@ import { Container, Section } from "@/components/ds";
 import {
     Marquee,
     MarqueeContent,
-    MarqueeFade,
     MarqueeItem,
 } from "@/components/ui/shadcn-io/marquee";
 export const LogoSpinner = () => {
